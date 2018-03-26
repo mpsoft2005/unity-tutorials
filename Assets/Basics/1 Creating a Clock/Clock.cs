@@ -22,7 +22,7 @@ public class Clock : MonoBehaviour
         if (continuous)
             UpdateContinuous();
         else
-           UpdateDiscrete();
+            UpdateDiscrete();
     }
 
     void UpdateDiscrete()
